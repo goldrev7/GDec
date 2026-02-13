@@ -1,5 +1,5 @@
 # GDec
-An algorithm that decomposes items into their most basic ingredients, given a specifically formatted file with all the recipes
+**An algorithm that decomposes items into their most basic ingredients, given a specifically formatted file with all the recipes**
 
 ### PERSONAL NOTE :
 This program is very bad, please do not use it anywhere serious.

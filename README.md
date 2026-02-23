@@ -3,7 +3,9 @@
 
 ### PERSONAL NOTE :
 This program is very bad, please do not use it anywhere serious.
+
 I made that as a project in year one of CS.
+
 Perhaps I will improve it in the future ?
 
 ### Documentation :
@@ -25,10 +27,13 @@ BAZPRIME=BAZ+4*FOO+6*BAR
 (Althought I recomment adding line returns to make it more readable)
 
 IMPORTANT : An item's name MUST be consistent, or two different items will be created
+
     ex : Foo and FOO will be interpreted as different items !
 
 The file MUST start with the (case-sensitive!) :BASE beacon : its absence will raise an error.
+
 Following this beacon, all base items should be named, one per line.
+
 A base item is an item which does not have a recipe.
 
 After listing all bases, the (case-sensitive!) :RECIPE beacon should be written.
@@ -62,8 +67,11 @@ Empty lines are ignored
 ##### Edge cases :
 
 - Item being both in the base and recipe sections :
+
     The item will be treated as a recipe.
 - Item being listed in a recipe without either being a base or having its own recipe
+
     The program will break. Please do not do that.
 - Item having two recipes
+
     The program will only use the last recipe. 
